@@ -16,6 +16,7 @@ What was done int this project?
 - We can continue with the next phase only if all tasks were completed
 - We can toggle between different phase planners
 - On completion a random fact will be displayed (Can be refreshed)
+- All data is stored in LocalStorage and no DB/API is required to run this example
 
 Need to be done
 - Create Phase planner (Remove the default injector), this need to be set via a dynamic form, can use formik or json forms for implementation (Not a must)
@@ -39,6 +40,13 @@ Need to be done
 
 **Some phase tasks might require sub-tasks, make sure to define the schema with availability for children tasks (To keep in mind)**
 
+
+# To get started
+Do not use the public folder as the deployed path might vary and it's not consistent to where the project is in the directory
+
+To be able to run the project make sure to run installation for all packages first by running `npm install` or `yarn`. This specific project was created using `yarn`, you can use `npm` if it's simpler or preferred, just to be noticed that in that case the `lock` file will be ignored
+
+After installing all dependencies just run `yarn start` and open the browser on `localhost:3000`
 
 # Getting Started with Create React App
 
